@@ -43,3 +43,5 @@ plugins=(
 zsh-fedora-plugin is released under the [MIT license](LICENSE)
 
 ### Inspired by the [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [Arch Linux Plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux)
+
+Should probably be name zsh-dnf-plugin, but I only use fedora ¯\_(ツ)_/¯
