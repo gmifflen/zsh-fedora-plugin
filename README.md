@@ -26,6 +26,6 @@ plugins=(
 
 ## License
 
-Oh My Zsh is released under the [MIT license](LICENSE.txt).
+zsh-fedora-plugin is released under the [MIT license](LICENSE)
 
 ### Inspired by the [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [Arch Linux Plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux)
