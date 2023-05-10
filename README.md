@@ -23,3 +23,9 @@ plugins=(
 | dnfrm        | `sudo dnf remove`                      | TBD                                                              |
 | dnfupd       | `sudo dnf check-update`                | TBD                                                              |
 | dnfupg       | `sudo dnf upgrade`                     | TBD                                                              |
+
+## License
+
+Oh My Zsh is released under the [MIT license](LICENSE.txt).
+
+### Inspired by the [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) [Arch Linux Plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux)
