@@ -23,7 +23,7 @@ plugins=(
 | dnfrm        | `sudo dnf remove`                      | TBD                                                              |
 | dnfupd       | `sudo dnf check-update`                | TBD                                                              |
 | dnfupg       | `sudo dnf upgrade`                     | TBD                                                              |
-
+| and more...  | `im just lazy`                         | don't wanna write them all                                       |
 ## License
 
 zsh-fedora-plugin is released under the [MIT license](LICENSE)
