@@ -3,6 +3,7 @@
 This plugin alias some dnf options to shorter alternatives
  
 Oh My Zsh Install: 
+clone the repo to the oh-my-zsh/custom/plugins directory
 ```zsh
  git clone https://github.com/gmifflen/zsh-fedora-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fedora
 ```
@@ -14,6 +15,7 @@ plugins=(
   )
 ```
 Manual Install:
+clone the repo to any directory of your choosing, default is ~/.config/zsh-fedora-plugin
 ```zsh
 git clone https://github.com/gmifflen/zsh-fedora-plugin.git ~/.config/zsh-fedora-plugin
 ```
