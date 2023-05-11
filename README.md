@@ -1,8 +1,8 @@
 # zsh-fedora-plugin
 
 This plugin alias some dnf options to shorter alternatives
-
-To use, run the command 
+ 
+Oh My Zsh Install: 
 ```zsh
  git clone https://github.com/gmifflen/zsh-fedora-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fedora
 ```
@@ -13,6 +13,15 @@ plugins=(
   fedora
   )
 ```
+Manual Install:
+```zsh
+git clone https://github.com/gmifflen/zsh-fedora-plugin.git ~/.config/zsh-fedora-plugin
+```
+then add this to your ~/.zshrc
+```
+source ~/.config/zsh-fedora-plugin/fedora.zsh
+```
+
 
 # Features
 
