@@ -30,24 +30,24 @@ source ~/.config/zsh-fedora-plugin/fedora.zsh
 | Alias        | Command                                | Description                                                            |
 |--------------|----------------------------------------|------------------------------------------------------------------------|
 | dnfin        | `sudo dnf install`                     | Installs the specified packages from the repositories                  |
-| dnfse        | `sudo dnf search`                      | Searches the repositories for a specified package                      |
+| dnfse        | `dnf search`                      | Searches the repositories for a specified package                      |
 | dnfrm        | `sudo dnf remove`                      | Uninstalls the specified packages from your system                     |
-| dnfupd       | `sudo dnf check-update`                | Checks for available updates for installed packages                    |
+| dnfupd       | `dnf check-update`                | Checks for available updates for installed packages                    |
 | dnfupg       | `sudo dnf upgrade`                     | Syncs with your DNF package repositories and upgrades packages         |
-| dnfif        | `sudo dnf info`                        | Displays detailed information about a specified package                |
+| dnfif        | `dnf info`                        | Displays detailed information about a specified package                |
 | dnfre        | `sudo dnf reinstall`                   | Reinstalls the specified package, restoring its default settings       |
-| dnfcln       | `sudo dnf clean`                       | Cleans up cached DNF files from your system to free up space           |
+| dnfcln       | `dnf clean`                       | Cleans up cached DNF files from your system to free up space           |
 | dnfdg        | `sudo dnf downgrade`                   | Downgrades the specified package to an earlier version                 |
-| dnfhist      | `sudo dnf history`                     | Shows a record of all actions performed by DNF                         |
-| dnfls        | `sudo dnf list`                        | Lists all the packages available in your repositories                  |
-| dnfrepif     | `sudo dnf repoinfo`                    | Displays information about the configured repositories in DNF          |
-| dnfrepls     | `sudo dnf repolist`                    | Lists all the repositories currently configured on your system         |
-| dnfrq        | `sudo dnf repoquery`                   | Queries information from repositories without altering your system     |
+| dnfhist      | `dnf history`                     | Shows a record of all actions performed by DNF                         |
+| dnfls        | `dnf list`                        | Lists all the packages available in your repositories                  |
+| dnfrepif     | `dnf repoinfo`                    | Displays information about the configured repositories in DNF          |
+| dnfrepls     | `dnf repolist`                    | Lists all the repositories currently configured on your system         |
+| dnfrq        | `dnf repoquery`                   | Queries information from repositories without altering your system     |
 | dnfsh        | `sudo dnf shell`                       | Opens an interactive DNF shell session for executing multiple commands |
-| dnfupif      | `sudo dnf updateinfo`                  | TBD                                                                    |
-| dnfmin       | `sudo dnf upgrade-minimal`             | TBD                                                                    |
-| dnflsi       | `sudo dnf list --installed`            | TBD                                                                    |
-| dnflsav      | `sudo dnf list --available`            | TBD                                                                    |
+| dnfupif      | `dnf updateinfo`                  | Displays informatoin about updates available for installed packages    |
+| dnfmin       | `sudo dnf upgrade-minimal`             | Upgrades, but only if the upgrade fixes a bug or security issue        |
+| dnflsi       | `dnf list --installed`            | Lists all packages that are currently installed on your system         |
+| dnflsav      | `dnf list --available`            | Lists all packages that are available for installation from repos      |
 
 ## License
 
