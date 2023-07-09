@@ -1,6 +1,6 @@
 # zsh-fedora-plugin
 
-This plugin alias some dnf options to shorter alternatives
+This plugin alias some dnf options to shorter alternatives, I know there may already be something like this, but this is made how I want it
  
 Oh My Zsh Install: 
 clone the repo to the oh-my-zsh/custom/plugins directory
