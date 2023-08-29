@@ -47,6 +47,28 @@ alias dnfmin='sudo dnf upgrade-minimal'
 # Display update information
 alias dnfupif='dnf updateinfo'
 
+# Function for full system update, upgrade, and clean
+dnf_full_upgrade() {
+  echo "This will perform the following actions:"
+  echo "  1. Check for package updates"
+  echo "  2. Upgrade packages"
+  echo "  3. Clean DNF cache"
+  
+  read -q "response?Do you want to proceed? (y/N) "
+  echo # Move to a new line
+  
+  if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+    echo "Checking for updates..."
+    sudo dnf check-update
+    echo "Upgrading packages..."
+    sudo dnf upgrade
+    echo "Cleaning cache..."
+    sudo dnf clean all
+  else
+    echo "Operation cancelled."
+  fi
+}
+
 # === Repository Management ===
 # Show repository information
 alias dnfrepif='dnf repoinfo'
