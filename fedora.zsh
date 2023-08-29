@@ -1,21 +1,68 @@
-# dnf - man dnf
-alias dnfse='dnf search'
+# Fedora Plugin for Oh My Zsh
+# Author: GMifflen
+# GitHub: https://github.com/gmifflen/zsh-fedora-plugin
+
+# === Package Management ===
+# Install packages
 alias dnfin='sudo dnf install'
+
+# Remove packages
 alias dnfrm='sudo dnf remove'
-alias dnfupd='dnf check-update'
-alias dnfupg='sudo dnf upgrade'
-alias dnfif='dnf info'
+
+# Reinstall packages
 alias dnfre='sudo dnf reinstall'
-alias dnfcln='dnf clean'
+
+# Downgrade packages
 alias dnfdg='sudo dnf downgrade'
-alias dnfhist='dnf history'
+
+# === Querying Packages ===
+# Search for packages
+alias dnfse='dnf search'
+
+# Display package information
+alias dnfif='dnf info'
+
+# List packages
 alias dnfls='dnf list'
-alias dnfrepif='dnf repoinfo'
-alias dnfrepls='dnf repolist'
-alias dnfrq='dnf repoquery'
-alias dnfsh='sudo dnf shell'
-alias dnfupif='dnf updateinfo'
-alias dnfmin='sudo dnf upgrade-minimal'
+
+# List installed packages
 alias dnflsi='dnf list --installed'
+
+# List available packages
 alias dnflsav='dnf list --available'
+
+# List all packages
 alias dnflsal='dnf list --all'
+
+# === Update Management ===
+# Check for package updates
+alias dnfupd='dnf check-update'
+
+# Upgrade packages
+alias dnfupg='sudo dnf upgrade'
+
+# Minimal upgrade
+alias dnfmin='sudo dnf upgrade-minimal'
+
+# Display update information
+alias dnfupif='dnf updateinfo'
+
+# === Repository Management ===
+# Show repository information
+alias dnfrepif='dnf repoinfo'
+
+# List configured repositories
+alias dnfrepls='dnf repolist'
+
+# Query repository information
+alias dnfrq='dnf repoquery'
+
+# === Utility ===
+# Clean DNF cache
+alias dnfcln='dnf clean'
+
+# Show DNF history
+alias dnfhist='dnf history'
+
+# Open DNF shell
+alias dnfsh='sudo dnf shell'
