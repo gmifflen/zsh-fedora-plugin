@@ -48,6 +48,7 @@ source ~/.config/zsh-fedora-plugin/fedora.zsh
 | dnfmin       | `sudo dnf upgrade-minimal`             | Upgrades, but only if the upgrade fixes a bug or security issue        |
 | dnflsi       | `dnf list --installed`                 | Lists all packages that are currently installed on your system         |
 | dnflsav      | `dnf list --available`                 | Lists all packages that are available for installation from repos      |
+| dnf_full_upgrade | `dnfupd && dnfupg && dnfcln`       | Updates, Upgrades, then Cleans packages                                |
 
 ## License
 
